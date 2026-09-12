@@ -22,5 +22,6 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('', TemplateView.as_view(template_name='base.html'), name='home'),
     path('app1/', include('app1.urls')),
+    path('app2/', include('app2.urls')),
 ]
 
