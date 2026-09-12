@@ -8,13 +8,14 @@
 <body>
     <nav>
         <ul>
-            <li><a>Inicio</a></li>
+            <li><a href="{% url 'app1:vista1_app1' %}">Vista 1 - App 1</a></li>
+            <li><a href="{% url 'app1:vista2_app1' %}">Vista 2 - App 1</a></li>
         </ul>
     </nav>
     {% block content %}
     {% endblock %}
     <footer>
-        <p>&copy; 2026 Evaliación 1</p>
+        <p>&copy; 2026 Evaluación 1</p>
     </footer>
 </body>
 </html>
