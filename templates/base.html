@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>{% block title %}Evaluación 1{% endblock %}</title>
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a>Inicio</a></li>
+        </ul>
+    </nav>
+    {% block content %}
+    {% endblock %}
+    <footer>
+        <p>&copy; 2026 Evaliación 1</p>
+    </footer>
+</body>
+</html>
